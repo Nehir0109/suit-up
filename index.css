@@ -1,0 +1,52 @@
+* {
+    font-family: 'DM sans';
+    font-style: normal;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    color: black; /* bura blackground verildikten sonra değiştirelecek!! */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 365px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 213px;
+    margin-top: 50px;
+}
+
+.others {
+    gap: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    margin-right: 215px;
+    margin-top: 45px;
+    
+}
+
+.btn {
+    width: 105px;
+    height: 40px;
+    background-color: #25DAC5;
+    color: white; /* bura blackground verildikten sonra silinecek!! */
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 18px;
+    line-height: 26px;
+}
