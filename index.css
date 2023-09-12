@@ -4,9 +4,13 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    color: black; /* bura blackground verildikten sonra değiştirelecek!! */
+    color: white; 
 }
 
+body {
+    background: url(images/background-image.png),rgb(36, 5, 150) 0.02% / cover;
+    background-repeat: no-repeat;
+}
 .container {
     display: flex;
     justify-content: space-between;
@@ -34,7 +38,6 @@
     width: 105px;
     height: 40px;
     background-color: #25DAC5;
-    color: white; /* bura blackground verildikten sonra silinecek!! */
     border: none;
     border-radius: 100px;
     text-align: center;
@@ -72,4 +75,80 @@
     line-height: 32px;
     margin-right: 43.81px;
     height:96px;
+    margin-bottom:0px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 556px;
+    height: 215.2px;
+}
+
+.left{
+    margin-left: 215px;
+    margin-bottom: 112.8px;
+}
+
+.gears{
+    background: url(images/gears.png);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+    width: 54px;
+    height:50px;
+    margin-top: 400px;
+} 
+
+.p1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top:35px;
+    width: 204px;
+}
+
+.p2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top:27px;
+    width:255px;
+}
+
+
+.right {
+    margin-left:44px;
+    margin-bottom: 136px;
+}
+
+.html-logo{
+    background: url(images/html-logo.png);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+    width: 40px;
+    height:45px;
+    margin-top: 400px;
+}
+
+.p3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top:35px;
+    width:141px;
+}
+
+.p4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top:27px;
+    width: 255px;
 }
